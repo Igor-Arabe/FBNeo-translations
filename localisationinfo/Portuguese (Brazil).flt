@@ -2556,6 +2556,9 @@ string   906 "Jogos de cartas"
         //-- "Board Game"
 string   908 "Jogo de tabuleiro"
 
+        //-- "PGM2"
+string   910 ""
+
         //-- "Family"
 string   940 "Família"
 
