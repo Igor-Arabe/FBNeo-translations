@@ -576,7 +576,7 @@ menu    100 {
             //-- "Generate dat file"
       popup  308 "生成 dat 文件" {
               //-- "Generate dat (Arcade only)..."
-        10651  309 "生成 dat (仅街机)..."
+        10651  309 "生成 dat (仅 Arcade)..."
               //-- "Generate dat (Neo Geo only)..."
         10652  310 "生成 dat (仅 Neo Geo)..."
               //-- "Generate dat (Megadrive only)..."
@@ -596,19 +596,19 @@ menu    100 {
               //-- "Generate dat (Game Gear only)..."
         10722  318 "生成 dat (仅 Game Gear)..."
               //-- "Generate dat (MSX 1 Games only)..."
-        10723  319 "生成 dat (仅 MSX 1 游戏)..."
+        10723  319 "生成 dat (仅 MSX 1)..."
               //-- "Generate dat (ZX Spectrum Games only)..."
-        10733  320 "生成 dat (仅 ZX Spectrum 游戏)..."
+        10733  320 "生成 dat (仅 ZX Spectrum)..."
               //-- "Generate dat (NES Games only)..."
-        10736  321 "生成 dat (仅 NES 游戏)..."
+        10736  321 "生成 dat (仅 NES)..."
               //-- "Generate dat (FDS Games only)..."
-        10737  322 "生成 dat (仅 FDS 游戏)..."
+        10737  322 "生成 dat (仅 FDS)..."
               //-- "Generate dat (SNES Games only)..."
-        10738  323 "生成 dat (仅 SNES 游戏)..."
+        10738  323 "生成 dat (仅 SNES)..."
               //-- "Generate dat (Neo Geo Pocket Games only)..."
-        10739  324 "生成 dat (仅 Neo Geo Pocket 游戏)..."
+        10739  324 "生成 dat (仅 Neo Geo Pocket)..."
               //-- "Generate dat (Fairchild Channel F Games only)..."
-        10740  325 "生成 dat (仅 Fairchild Channel F 游戏)..."
+        10740  325 "生成 dat (仅 Fairchild Channel F)..."
               //-- "Generate all dats..."
         10730  327 "生成所有 dat..."
       }
@@ -1302,6 +1302,8 @@ dialog	  56 "" {
 
         //-- ""
 dialog	  57 "" {
+        //-- "version"
+     83	   1 "版本"
         //-- "FB Neo contains parts of MAME && Final Burn.\n 2004-2025, Team FBNeo."
   65535	   3 "FB Neo 包含 MAME 和 Final Burn 部分代码。				(C) 2004-2025, FBNeo 团队。"
         //-- "OK"
@@ -1312,6 +1314,8 @@ dialog	  57 "" {
 
         //-- ""
 dialog	  58 "" {
+        //-- "version"
+     83	   1 "版本"
         //-- "OK"
       1	   4 "确定"
         //-- " I understand and agree to be bound by the terms of the above license agreement"
@@ -1942,7 +1946,7 @@ dialog	  85 "ROMDATA 管理器" {
   21210	   3 "扫描 Dat"
         //-- "Directories..."
   21211	   4 "目录..."
-        //-- "Scan sub-dirs"
+        //-- "Search subdirectories"
   21209	   5 "搜索子目录"
         //-- "Select Game"
   20302	   6 "搜索游戏"
@@ -1952,8 +1956,8 @@ dialog	  85 "ROMDATA 管理器" {
   20304	   8 "预览"
         //-- "Options"
   65535	  10 "选项"
-        //-- "Dat path:"
-  21215	  15 "Dat 路径:"
+        //-- "Game:"
+  21215	  15 "游戏"
         //-- "Driver:"
   21216	  16 "驱动"
         //-- "Hardware:"
@@ -2069,6 +2073,9 @@ string   262 "自动回中"
         //-- "Normal"
 string   264 "普通"
 
+        //-- "Re-Detect Controllers"
+string   266 "重新检测控制器"
+
         //-- "DIPSwitch group"
 string   280 "跳线组"
 
@@ -2089,6 +2096,15 @@ string   320 "创建新的记忆卡"
 
         //-- "Select new memory card"
 string   322 "选择新的记忆卡"
+
+        //-- "Insert card"
+string   324 "插入记忆卡"
+
+        //-- "Eject card"
+string   326 "弹出记忆卡"
+
+        //-- "Card"
+string   328 "记忆卡"
 
         //-- "Loading and initialising %s..."
 string   340 "读取并初始化 %s..."
@@ -2551,6 +2567,9 @@ string   906 "纸牌游戏"
 
         //-- "Board Game"
 string   908 "棋盘游戏"
+
+        //-- "PGM2"
+string   910 ""
 
         //-- "Family"
 string   940 "系列"
